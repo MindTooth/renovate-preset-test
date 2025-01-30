@@ -8,12 +8,5 @@
     ":disableRateLimiting"
   ],
 
-  "enabledManagers": ["npm"],
-  "packageRules": [
-    {
-      "matchSourceUrls": ["https://github.com/tailwindlabs/tailwindcss"],
-      "groupName": "tailwindcss monorepo",
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"]
-    }
-  ]
+  "enabledManagers": ["npm"]
 }
