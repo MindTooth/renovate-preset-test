@@ -4,7 +4,8 @@
   "extends": [
     "config:recommended",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)"
+    ":timezone(Europe/Berlin)",
+    ":disableRateLimiting"
   ],
 
   "enabledManagers": ["npm"],
