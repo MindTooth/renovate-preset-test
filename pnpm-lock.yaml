@@ -29,6 +29,10 @@ importers:
       tailwindcss:
         specifier: 4.0.0
         version: 4.0.0
+    devDependencies:
+      '@tailwindcss/language-server':
+        specifier: 0.14.1
+        version: 0.14.1
 
 packages:
 
@@ -304,6 +308,11 @@ packages:
     resolution: {integrity: sha512-DJs7B7NPD0JH7BVvdHWNviWmunlFhuEkz7FyFxE4japOWYMLl9b1D6+Z9mivJJPWr6AEbmlPqgiFRyLwFB1SgQ==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
+
+  '@tailwindcss/language-server@0.14.1':
+    resolution: {integrity: sha512-n3z2rhl+n6be8EvqzTjZXSa5aSZBURaljYTpMva10/70aSKK8oCuS/ZJOr3//l00MfUoqCFIKGKGLkjs/LQRHQ==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
 
   '@tailwindcss/node@4.0.1':
     resolution: {integrity: sha512-lc+ly6PKHqgCVl7eO8D2JlV96Lks5bmL6pdtM6UasyUHLU2zmrOqU6jfgln120IVnCh3VC8GG/ca24xVTtSokw==}
@@ -1636,6 +1645,8 @@ snapshots:
     dependencies:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 4.0.0
+
+  '@tailwindcss/language-server@0.14.1': {}
 
   '@tailwindcss/node@4.0.1':
     dependencies:
