@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":label(dependencies)",
+    ":timezone(Europe/Berlin)"
+  ],
+
+  "enabledManagers": ["npm"],
+  "packageRules": [
+    {
+      "matchSourceUrls": ["https://github.com/tailwindlabs/tailwindcss"],
+      "groupName": "tailwindcss monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"]
+    }
+  ]
+}
