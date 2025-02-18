@@ -9,6 +9,6 @@
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/language-server": "0.14.1"
+    "@tailwindcss/language-server": "0.14.5"
   }
 }
